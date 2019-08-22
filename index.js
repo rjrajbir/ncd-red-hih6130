@@ -9,7 +9,7 @@ module.exports = class HIH6130{
 
 	init(){
 		var sensor = this;
-		this.comm.writeByte(this.addr, 00).then((r) => {
+		this.comm.writeByte(this.addr, 80).then((r) => {
 			sensor.initialized = true;
 		}).catch((e) => {
 			sensor.initialized = false;
