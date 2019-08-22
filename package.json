@@ -1,0 +1,31 @@
+{
+  "name": "ncd-red-hih6130",
+  "version": "1.0.0",
+  "description": "Node module for using the Honeywell HumidIcon Digital Humidity/Temperature Sensor HIH-6130",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjrajbir/ncd-red-hih6130.git"
+  },
+  "keywords": [
+    "hih-6130",
+    "i2c",
+    "ncd",
+    "humidity",
+    "temperature",
+    "sensor",
+    "node-red"
+  ],
+  "author": "Rajbir Singh",
+  "license": "MIT",
+  "dependencies": {
+    "ncd-red-comm": "^1.4.7"
+  },
+  "bugs": {
+    "url": "https://github.com/rjrajbir/ncd-red-hih6130/issues"
+  },
+  "homepage": "https://github.com/rjrajbir/ncd-red-hih6130#readme"
+}
